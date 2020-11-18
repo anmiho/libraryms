@@ -1,12 +1,16 @@
-## 图书管理系统
+## 基于ssm的图书管理系统libraryms
 
-## 编译环境  ：
+## 编译器 ：
+
+> IDEA
+
+## 编译环境 ：
 
 >jdk 1.8 
 >
 >mysql 5.0 及以上
 >
->tomcat 7
+>tomcat 7 及以上
 
 ## 框架 ：
 
@@ -16,33 +20,18 @@
 
 > Maven
 
-## 编译器 ：
+## 项目启动 ：
 
-> IDEA
+> 下载jdk,mysql,tomcat等
+>
+> 使用Navicat（或其他数据库工具）运行mylibrary.sql文件新建数据库
+>
+> 修改resources\config\jdbc.properties配置文件中的数据库信息（用户名和密码）为自己的
+>
+> 在Run/Debug Configurations中配置Tomcat Server相关参数
+>
+> 运行程序，访问 http://localhost:8080/ 即可
 
-## 完成进度 ：
-
-> 完成
-
-## 项目流程图 ：
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/8.png)
-
-## 项目截图 ：
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/1.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/2.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/3.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/4.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/5.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/6.png)
-
-![](https://gitee.com/ZeroWdd/MyLibrary/raw/master/img项目截图/7.png)
-
+## 谢谢观看~
 
 
